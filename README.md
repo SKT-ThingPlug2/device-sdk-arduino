@@ -144,7 +144,7 @@ Arduino SimpleAPI example 실행하기
 	컴파일 : 메뉴->스케치->컴파일->업로드
 	실행 : 업로드가 완료되면 자동으로 실행
 	```
-	![arduino_ide_02.png](../images/arduino_ide_02.png)
+	![arduino_ide_02.png](images/arduino_ide_02.png)
 	
 	
 ThingPlug_Simple_SDK 실행
@@ -155,4 +155,4 @@ ThingPlug_Simple_SDK 실행
 ---
 2. Thingplug SensorData
 ---
-![ArduinoTP.png](../images/ArduinoTP.png)
+![ArduinoTP.png](images/ArduinoTP.png)
