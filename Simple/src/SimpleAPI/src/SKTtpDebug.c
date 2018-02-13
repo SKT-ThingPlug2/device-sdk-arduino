@@ -119,10 +119,10 @@ void SKTtpDebugPrintf(LOG_LEVEL_E level, const char *format, ...)
 
     char buffer[2048];
     sprintf(buffer, "[%s] [%s]: ", TimeToString(), stringBuffer);
-    Stream_print_str(NULL, buffer);
+    int bufidx = strlen(buffer);
     va_list argp;
     va_start(argp, format);
-    vsprintf(buffer, format, argp);
+    vsprintf(&buffer[bufidx], format, argp);
     va_end(argp);
     Stream_print_str(NULL, buffer);
 }
