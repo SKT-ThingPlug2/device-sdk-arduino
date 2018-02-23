@@ -577,7 +577,7 @@ int start() {
 	int port = MQTT_PORT;
 #endif
     rc = tpSDKCreate(host, port, MQTT_KEEP_ALIVE, SIMPLE_DEVICE_TOKEN, NULL, 
-        0, subscribeTopics, TOPIC_SUBSCRIBE_SIZE, NULL, mClientID);
+        0, subscribeTopics, TOPIC_SUBSCRIBE_SIZE, NULL, mClientID, MQTT_CLEAN_SESSION);
     SKTDebugPrint(SKT_LOG_LEVEL_INFO, "tpSDKCreate result : %d", rc);
 	return rc;
 }
