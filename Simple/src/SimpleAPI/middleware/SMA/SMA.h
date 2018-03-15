@@ -7,7 +7,7 @@ extern "C" {
 
 //#define USE_PROX
 //#define USE_LCD
-//#define __DUMMY_DATA_
+#define __DUMMY_DATA_
 
 #ifdef USE_LCD
 void SMAInitLCD(int x, int y);
